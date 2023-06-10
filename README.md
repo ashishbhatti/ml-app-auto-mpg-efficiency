@@ -25,3 +25,5 @@ url  = 'https://vehicle-mpg-prediction.onrender.com/'
 r = requests.post(url, json = vehicle_config)
 print(r.text.strip())
 ```
+
+Based on: https://github.com/dswh/fuel-consumption-end-to-end-ml
