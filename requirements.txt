@@ -3,5 +3,5 @@ numpy
 scikit-learn
 flask
 matplotlib
-qunicorn
+gunicorn
 seaborn
