@@ -3,7 +3,7 @@
 The app is deployed on https://vehicle-mpg-prediction.onrender.com/
 But you can only query using post request.
 
-To test the app, run the following code:
+To test the app, run the following python code:
 ```
 # sample values 
 vehicle_config = {
