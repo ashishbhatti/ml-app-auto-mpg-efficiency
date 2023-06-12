@@ -1,11 +1,11 @@
 # ml-app-auto-mpg-efficiency
 
-The app is deployed on https://vehicle-mpg-prediction.onrender.com/
+The app is deployed on https://vehicle-mpg-prediction.onrender.com/ \
 But you can only query using post request.
 
 To test the app, run the following python code:
 ```
-# sample values 
+# sample values, you can give your own vehicle configuration as well 
 vehicle_config = {
     'Cylinders': [4, 6, 8],
     'Displacement': [155.0, 160.0, 165.5],
@@ -18,7 +18,7 @@ vehicle_config = {
 
 
 
-# # Code to check deployement on render server
+# Code to get the mpg values from the model deployed on render server
 import requests
 
 url  = 'https://vehicle-mpg-prediction.onrender.com/'
